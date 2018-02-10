@@ -1,0 +1,155 @@
+
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+  box-sizing: border-box;
+
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Stempel Garamond™';
+  border: 2px solid #000000;
+  max-width: 100%;
+    margin:auto;
+}
+
+header, nav, main, footer {
+  text-align:  center;
+  /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+  background-color: #352f97;
+  height: 80px;
+  border-bottom: 2px solid #000000;
+}
+
+header h1 {
+font-family:"Carrois Gothic SC";
+    width: 110%;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin: auto;
+ }
+
+header img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-right: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+}
+
+header .subheading {
+  color: #ffffff;
+  padding: 10px;
+  margin: auto;
+
+}
+
+nav {
+  margin: auto;
+  border-bottom: 2px solid #000000;
+}
+/* nav button {} */
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+background-color:#352f97;
+
+}
+
+nav ul li {
+  background-color: #063059;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+}
+
+nav ul li a {
+  display: block;
+  padding: 3px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li.active a {
+  color: #000000 ;
+ background-color:#618AB2;   
+}
+
+nav ul li a:hover {
+  color: #000000;
+    background-color:#716DBD;
+}
+
+main {
+  border-bottom: 2px solid #000000;
+}
+
+main h2 {
+  margin:12px;
+  padding:12px;
+    font-size: 45px;
+}
+main picture {
+  margin:100px;
+  max-width:100%;
+}
+
+main.currentweather {
+  text-align: center;
+   margin: auto;
+  font-size: 300px;
+  font-weight: bold;
+    
+}
+main ul { 
+list-style-type: none;
+    font-size: 30px;
+}
+
+main picture img {
+  width: 300px;
+    Height:300px;
+
+}
+section.forecast {
+  display:none;
+  border-bottom: 2px solid #000000;
+}
+
+
+article {
+  margin: auto;
+  width:100%;
+  font-family: "Stempel Garamond LT Std";
+}
+
+p.town-article {
+  text-align: center;
+}
+
+/* This structure refers to img elements tha are the posterity of paragraph elements within artcle elements */
+article p.town-article img {
+  width: 100%;      /* fill the page in the small/phone view */
+  max-height: 100%;
+
+}
+
+footer {
+  font-size: smaller;
+  background-color: #352f97;
+  color: #ffffff;
+  padding: 10px;
+  margin: auto;
+  height: 85px;
+}
+footer aside {
+  text-align: center;
+  padding: 15px;
+}
