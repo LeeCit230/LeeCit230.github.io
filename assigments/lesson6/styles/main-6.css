@@ -172,24 +172,25 @@ nav ul.hide {
   border-style: solid solid none solid;
   text-align: center;
   border-width: 1px;
-  font-size: 1.2em;
+  font-size: .8em;
   margin: 0;
   padding: 0.5em;
   background-color: #352f97;
+    color: #ffffff;
 }
 
 .forecast table {
   border: 1px;
   width: 100%;
   text-align: center;
-  border-collapse: collapse;
 }
 
-.forecast table th, .forecast table td {
-  border: 1px solid;
+.forecast table th, {
+  border: 2px solid;
   border-collapse: collapse;
   padding: 4px;
-  background-color: #352f97;
+    background-color: #352f97
+  background-color: #ffffff;
 }
 
 article {
@@ -200,7 +201,7 @@ article {
 
 article h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: 0;
   margin-left: 5px;
   margin-right: 5px;
@@ -209,7 +210,9 @@ article h3 {
 
 article p {
   margin-bottom: 0;
+    font-size: 1.5em
 }
+
 
 .article-image {
   width: 100%;
