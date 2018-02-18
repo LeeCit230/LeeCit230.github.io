@@ -2,7 +2,7 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
   header, nav, main, footer {
-    font-family: Stempel Garamond LT Std;
+    font-family: 'Stempel Garamond™';
     text-align: center ;
     }
 
@@ -24,7 +24,8 @@
   }
 
   nav {
-    background-color: #01ae01;
+    background-color:#352f97;
+
     margin: 0;
     padding: 0;
   }
@@ -44,7 +45,7 @@
   /* nav button { display:none; }   hamburger button does not need to be shown */
   main picture img {
     position: relative;
-    right: 35%;
+    right: 40%;
   }
 
   section.forecast {

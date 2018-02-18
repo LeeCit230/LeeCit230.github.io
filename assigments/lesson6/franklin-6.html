@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>franklin city|wWeather Alert</title>
+  <meta name="author" content="justin">
+  <meta name="description" content=" The Weather Right Now">
+  <link href="styles/normalize.css" rel="stylesheet"> 
+  <link href="styles/main-6.css" rel="stylesheet">
+  <link href="styles/medium-6.css" rel="stylesheet">  
+  <link href="styles/large-6.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="align-middle align-center">
+      <div class="inline-block align-middle">
+        <img class="display-small" src="images/logo-small.png" alt="site logo">
+        <img class="display-medium" src="images/logo-medium.png" alt="site logo">
+        <img class="display-large" src="images/logo-large.png" alt="site logo">
+      </div>
+      <div class="inline-block align-middle">
+        <h1 class="title">Weather Alert</h1>
+        <h3 class="subtitle">Weather right now</h3>
+      </div>
+    </div>
+  </header>
+
+  <nav class="clearfix">
+    <div>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Franklin</a></li>
+        <li><a href="#">Greenville</a></li>
+        <li><a href="#">Springfield</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>   
+    </div>
+  </nav>
+    
+  <main>
+    <div class="weather-group">
+      <div class="weather-block">
+        <picture>
+          <source srcset="images/franklin-small.jpg" media="(max-width: 600px)">
+          <source srcset="images/franklin-medium.jpg" media="(max-width: 1024px)">
+          <source srcset="images/franklin-large.jpg">
+          <img src="images/franklin-large.jpg" id="main-image" alt="Franklin image">
+        </picture>
+      </div>
+      <div class="weather-block">
+        <h2 id="city-name">Franklin</h2>
+       
+          <ul class="franklin">
+                <li>Summary: <b>sunny</b></li>
+                <li>High: <b>90&#8457;</b></li>
+                <li>Low: <b>50&#8457;</b></li>
+                <li>Precipitation: <b>0&#37;</b></li>
+                <li>Max Wind: <b>5 mph SW</b></li>
+            </ul>
+      </div>
+    </div>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+        </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+      
+    <article>
+      <h3>Outdoors Activity</h3> 
+      <div class="clearfix">
+        <p>
+          <img class="article-image" src="images/trees.jpg" alt="Article photo" > 
+          From getting the best fishing days to finding your way without a compass, we’ve got ideas to enjoy the outdoors as well as be more self-sufficient and safe.  Plus, check out some tasty recipes for outdoor cooking. Have fun out there!
+     
+        </p>
+      </div>
+    </article>      
+  
+  </main>
+    
+  <footer>
+    <aside>
+      <span>Weather alert</span><br>
+       123 Weather Lane <br>
+      Franklin, MU 83454<br>
+      (555) 555-5555<br>
+      ontact@weather alert.com<br>
+    </aside>
+    <p class="footer-bar">
+      &copy;2018 All Rights Reserved | 
+      weather alert|  <span id="currentdate"></span>
+    </p>
+  </footer>
+
+  <script src="/assigments/lesson6/scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+
+</body>
+</html>
