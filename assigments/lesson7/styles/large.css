@@ -49,6 +49,6 @@
   }
 
   .gallery-grid img:hover {
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px #542f97;
   }
 }
