@@ -423,7 +423,7 @@ main-title {
 
 main section article {
   display: block;
-  flex-direction:row;
+  flex-direction:colum;
 }
 
 main section article p {
