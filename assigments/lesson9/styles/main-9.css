@@ -1,8 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=stemple+Garmond);
 @import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+sc);
-
-* { 
+ *{ 
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -90,7 +89,7 @@ nav div {
 
 nav button {
   margin-left: 0.2em;
-  color: ffffff;
+  color: #ffffff;
   font-size: 2.75em;
   background-color: #352f97;
   border: none;
@@ -410,9 +409,7 @@ input.submitBtn {
     color: #ffffff;
 }
 
- input.submitBtn:hover {
-		box-shadow: #352f97
-	}
+
 main-title {
     font-family: 'stemple+Garmond', cursive;
     font-size: 25px;
@@ -426,7 +423,7 @@ main-title {
 
 main section article {
   display: block;
-  flex-direction: column;
+  flex-direction:row;
 }
 
 main section article p {
