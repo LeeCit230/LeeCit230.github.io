@@ -423,7 +423,7 @@ main-title {
 
 main section article {
   display: block;
-  flex-direction:colum;
+  flex-direction:column;
 }
 
 main section article p {
@@ -507,7 +507,8 @@ section.weatherdata {
 }
 
 section.forecast {
-	display: none;
+	display: block;
+	
 }
 
 .actualnumber {
