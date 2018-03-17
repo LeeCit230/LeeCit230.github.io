@@ -146,7 +146,7 @@ display: flex;
 .weather-group {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  align-content:  content;
   margin-top: 5px;
 }
 
@@ -168,7 +168,7 @@ display: flex;
 .weather-desc {
   font-family: 'stemple+Garmond', cursive;
   font-size: 1.5em;
-  text-align: right;
+  text-align: center;
 }
 
 
@@ -188,6 +188,7 @@ display: flex;
 }
 .weather-data {
   display: block;
+	text-align: center;
 }
 
 .forecast {
@@ -317,6 +318,7 @@ weather-container {
 .weather-icon {
   width: 100px;
   height: 100px;
+	align-content: center;
 }
 
 .temperature {

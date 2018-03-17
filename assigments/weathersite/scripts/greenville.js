@@ -32,7 +32,7 @@
   request.responseType = 'json';
   request.onload = function() {
     var towns = request.response;
-    showTown(towns, 'Franklin');
+    showTown(towns, 'greenville');
   }
   request.send();
 

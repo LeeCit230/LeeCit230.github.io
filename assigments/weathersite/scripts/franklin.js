@@ -22,7 +22,7 @@
       var html = highTemp + '&deg;F';
       document.querySelector(selector).innerHTML = html;
     }
-  };
+  }; 
 })();
 
 (function() {
