@@ -663,3 +663,19 @@ input:required:valid, select:required:valid {
 
 }
 
+video {
+  width: 100%;
+}
+
+#presentationVideo:link, #presentationVideo:visited {
+    background-color: #7d4427;
+    color: #a2c523;
+    padding: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#presentationVideo:hover, #presentationVideo:active {
+    background-color: #2e4600;
+}
